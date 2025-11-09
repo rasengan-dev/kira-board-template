@@ -55,11 +55,11 @@ const Page: PageComponent = () => {
 				</Breadcrumb>
 			</div>
 			<div className='w-full mt-8 px-8'>
-				<h1 className='font-medium text-3xl'>Project UI/UX</h1>
+				<h1 className='font-medium text-3xl'>Rasengan.js Project</h1>
 			</div>
 
-			<div className='mt-4 h-full min-h-[500px]'>
-				<Tabs className='h-full' defaultValue='board'>
+			<div className='mt-4 w-full h-full min-h-[500px]'>
+				<Tabs className='w-full h-full' defaultValue='board'>
 					<div className='flex items-center gap-4 px-8'>
 						<TabsList>
 							<TabsTrigger className='px-4' value='board'>

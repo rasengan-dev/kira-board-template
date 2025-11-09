@@ -12,7 +12,7 @@ const RootLayout: LayoutComponent = () => {
 					<Sidebar />
 				</div>
 
-				<div className='w-full h-screen p-4 pl-0'>
+				<div className='w-[calc(100%-256px)] h-screen p-4 pl-0'>
 					<main className='w-full h-full rounded-lg bg-background border border-border overflow-auto'>
 						<Outlet />
 					</main>
