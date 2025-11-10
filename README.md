@@ -63,6 +63,16 @@ You can also edit the styles in the `styles/` folder and provide your own Tailwi
 
 ---
 
+## Prepare for production
+
+```bash
+# Build the application
+pnpm run build
+
+# Run the production server
+pnpm run serve
+```
+
 ## 🧱 Built With
 
 - [Rasengan.js](https://rasengan.dev)
