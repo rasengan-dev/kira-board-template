@@ -111,18 +111,16 @@ export default function Sidebar() {
 				</div>
 
 				<div className='mt-4 border rounded-lg p-4 text-foreground bg-background'>
-					<h2 className='font-bold text-sm'>
-						Explore Rasengan UI Kit and Templates
-					</h2>
+					<h2 className='font-bold text-sm'>Rasengan UI Kit</h2>
 
-					<p className='text-foreground/70 mt-2 text-sm text-pretty'>
+					<p className='text-foreground/70 my-4 text-sm text-pretty'>
 						Build fast and modern web applications with ready to use React
 						components and templates powered by{" "}
 						<span className='text-foreground font-medium'>Shadcn UI.</span>
 					</p>
 
 					<Link to='https://ui.rasengan.dev' target='_blank'>
-						<Button className='w-full mt-2'>Visit Rasengan UI</Button>
+						<Button className='w-full'>Visit Rasengan UI</Button>
 					</Link>
 				</div>
 			</aside>
